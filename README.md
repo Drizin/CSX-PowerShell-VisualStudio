@@ -19,7 +19,7 @@ CSX-PowerShell-VisualStudio2015 | Non-SDK-Style Project | This is the older cspr
 
 # Collaborate
 
-This is just a sample project, mostly targeted as companion code for this Article on CodeProject, which is mostly about running CSX scripts.
+This is just a sample project, mostly targeted to be used as companion code for [this Article on CodeProject](https://www.codeproject.com/Articles/5273898/Running-Csharp-code-and-CSX-scripts-directly-from), which is mostly about running CSX scripts.
 
 If you want to collaborate on the POCOs generator, please refer to [**CodegenCS.POCO project**](https://github.com/Drizin/CodegenCS/tree/master/src/CodegenCS.POCO) where I'll maintain latest working templates.
 
