@@ -8,13 +8,12 @@
 #r "System.Data.dll"
 
 // Load third-party libraries by their relative paths, relative to "$Env:userprofile\.nuget\packages\"
-//#r "newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll"
-//#r "codegencs\1.0.5\lib\netstandard2.0\CodegenCS.dll"
+#r "newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll"
+#r "codegencs\1.0.5\lib\netstandard2.0\CodegenCS.dll"
 
 // Load third-party libraries by their relative paths, relative to "($SolutionDir)\packages\"
-#r "Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll"
-#r "CodegenCS.1.0.5\lib\netstandard2.0\CodegenCS.dll"
-
+//#r "Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll"
+//#r "CodegenCS.1.0.5\lib\netstandard2.0\CodegenCS.dll"
 
 // CS files are better than CSX because Intellisense and Compile-time checks works better. 
 #load "DatabaseSchema.cs"

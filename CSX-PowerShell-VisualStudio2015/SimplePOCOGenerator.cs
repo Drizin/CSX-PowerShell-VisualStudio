@@ -74,7 +74,8 @@ public class SimplePOCOGenerator
 
         // since no errors happened, let's save all files
         _generatorContext.SaveFiles(outputFolder: targetFolder);
-        _generatorContext.AddToProject(csProj, targetFolder);
+        if (csProj != null)
+            _generatorContext.AddToProject(csProj, targetFolder);
 
         Console.WriteLine("Success!");
     }
